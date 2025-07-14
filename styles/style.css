@@ -1,0 +1,25 @@
+body {font-family: Arial, Helvetica, sans-serif; margin: 0; padding: 0; text-align: center; 
+    background-color: #f5f5f5; display: flex; flex-direction: column; min-height: 100vh;}
+
+.container {padding: 20px; flex-grow:1; display: flex; 
+    flex-direction: column; align-items: center; justify-content: center;}
+h1 {color: #333; font-size: 2rem; margin-bottom: 20px;}
+img {width: 130px; max-width: 80vw; height: auto; margin: 20px 0; transition: transform 0.3s ease;}
+
+button {padding: 12px 24px; font-size: 1.2rem; background-color: #009727; color: #fff; border: none; 
+    border-radius: 8px; cursor: pointer; transition: background-color 0.3s;}
+
+button:hover {background-color: #94feb0; color: #009727; font-weight: bold;}
+
+footer { background-color: #000844; color: #95a2ff; text-align: center; padding: 2px 0 2px 0; 
+    font-size: 12px; font-weight: bold; position: fixed; width: 100%; bottom: 0;}
+
+.redes a {color: white; margin: 0 10px; text-decoration: none; font-size: 14px;}
+.redes a:hover {color: #ae7efc;}
+.redes img {width: 25px; height: 25px; border-radius: 50%;}
+
+@media (max-width: 480px) {
+    h1 {font-size: 1.5rem;}
+    button {width: 90%; font-size: 1rem;}
+    img {width: 120px;}
+}
